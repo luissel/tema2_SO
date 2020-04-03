@@ -1,0 +1,28 @@
+Chirita Maria-Luissa 332CA
+Tema 2
+
+Organizare:
+	Functiile cerute au fost implementate in fisierul so_stdio.c.
+	
+	SO_FILE contine file descriptorul, bufferul in care retin datele, pozitia
+    curenta in buffer, numarul de bytes cititi si cateva flag-uri pentru eof,
+    error si pentru a sti daca ultima operatie a fost read sau write.
+
+Implementare:
+	Am implementat functiile folosind syscalls, cat mai aproape de functiile
+    reale si urmarind indicatiile din enuntul temei.
+
+	Functionalitati extra:
+		Nu am implementat nimic extra.
+
+	Functionalitati lipsa:
+		Nu am apucat sa implementez functiile: popen si pclose. 
+
+Cum se compilează și cum se rulează:
+    Pentru compilare am creat un fisier Makefile cu regula build care 
+    compilează biblioteca dinamică libso_stdio.so. 
+
+    Pentru testare se poate rula checkerul sau fiecare test manual.
+
+Bibliografie:
+	http://www.cplusplus.com/reference/cstdio/
